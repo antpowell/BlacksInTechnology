@@ -472,7 +472,7 @@ module.exports = function(grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:example_user/example_webapp.git',
+          remote: 'git@github.com:antpowell/BlacksInTechnology.git',
           branch: 'gh-pages'
         }
       },
