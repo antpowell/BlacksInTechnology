@@ -18,7 +18,8 @@ module.exports = function(grunt) {
   require('jit-grunt')(grunt, {
     useminPrepare: 'grunt-usemin',
     ngtemplates: 'grunt-angular-templates',
-    cdnify: 'grunt-google-cdn'
+    cdnify: 'grunt-google-cdn',
+    buildcontrol: 'grunt-build-control'
   });
 
   // Configurable paths for the application
@@ -472,7 +473,7 @@ module.exports = function(grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:antpowell/BlacksInTechnology.git',
+          remote: 'https://github.com/antpowell/BlacksInTechnology.git',
           branch: 'gh-pages'
         }
       },
