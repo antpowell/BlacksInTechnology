@@ -473,7 +473,7 @@ module.exports = function(grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com',
+          remote: 'git@github.com:antpowell/BlacksInTechnology.git',
           branch: 'gh-pages'
         }
       },
