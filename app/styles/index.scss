@@ -15,12 +15,12 @@ body {
   padding: 0;
 }
 /* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+// .header,
+// .marketing,
+// .footer {
+//   padding-left: 15px;
+//   padding-right: 15px;
+// }
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
@@ -79,13 +79,72 @@ body {
     border-bottom: 0;
     background-color: rgba(0, 0, 0, 0.4);
   }
+  //navbar dropdown on hover
+  .dropdown {
+    .dropdown-menu {
+      // background-color: rgba(192, 192, 192, 0.6);
+      form {
+        * {
+          @include margin(0 0 3px 0);
+        }
+      }
+      // &:before {
+      //   position: absolute;
+      //   top: -7px;
+      //   left: 229px;
+      //   display: inline-block;
+      //   border-right: 7px solid transparent;
+      //   border-bottom: 7px solid #ccc;
+      //   border-left: 7px solid transparent;
+      //   border-bottom-color: rgba(0, 0, 0, 0.2);
+      //   content: '';
+      // }
+      // &:after {
+      //   position: absolute;
+      //   top: -6px;
+      //   left: 230px;
+      //   display: inline-block;
+      //   border-right: 6px solid transparent;
+      //   border-bottom: 6px solid #ffffff;
+      //   border-left: 6px solid transparent;
+      //   content: '';
+      // }
+    }
+    &:hover {
+      .dropdown-menu {
+        @include display(block);
+      }
+    }
+  }
 }
+//styles only for small screen devices
+@media screen and (max-width: 768px){
+  #logInBtn{
+    position: relative;
+    margin-left: 15px;
+    float: left !important;
+  }
+  .dropdown-menu{
+    float: left !important;
+  }
+  #logInDropdown{
+    width: 100%;
+  }
+
+  input[name="username"]{
+    margin-bottom: 5px;
+  }
+
+}
+//set navbar on in front of jumbotron and add a light opacity
 .navbar-inverse {
   background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   width: 100%;
   z-index: 2;
 }
+//set login button & form for small devices
+
 //cursor pointer on hover
 .owl-item img {
   &:hover {
@@ -102,43 +161,7 @@ body {
 .owl-wrapper {
   cursor: pointer;
 }
-//navbar dropdown on hover
-.dropdown {
-  .dropdown-menu {
-    // background-color: rgba(192, 192, 192, 0.6);
-    form {
-      * {
-        @include margin(0 0 3px 0);
-      }
-    }
-    // &:before {
-    //   position: absolute;
-    //   top: -7px;
-    //   left: 229px;
-    //   display: inline-block;
-    //   border-right: 7px solid transparent;
-    //   border-bottom: 7px solid #ccc;
-    //   border-left: 7px solid transparent;
-    //   border-bottom-color: rgba(0, 0, 0, 0.2);
-    //   content: '';
-    // }
-    // &:after {
-    //   position: absolute;
-    //   top: -6px;
-    //   left: 230px;
-    //   display: inline-block;
-    //   border-right: 6px solid transparent;
-    //   border-bottom: 6px solid #ffffff;
-    //   border-left: 6px solid transparent;
-    //   content: '';
-    // }
-  }
-  &:hover {
-    .dropdown-menu {
-      @include display(block);
-    }
-  }
-}
+
 #signInBtn {
   width: 100%;
   transition: all 0.2s ease;

@@ -24,13 +24,18 @@ img{
 }
 
 .box {
-  background: rgba(0, 0, 0, 0.2);
+  background: #999999;
   height: 400px;
   margin: 20px;
 }
+.center-text{
+  font-size: 8em;
+  @include position(relative);
+  top: 50%;
+}
 
 .box-round {
-  background: rgba(0, 0, 0, 0.2);
+  background: #999999;
   border-radius: 15px 50px;
   height: 150px;
   width: 150px;
