@@ -1,0 +1,33 @@
+@import "../../bourbon/_bourbon.scss";
+
+.banner {
+  background: #999999;
+  height: 300px;
+  margin: 20px;
+}
+.box {
+  background: #999999;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+.box-thumbnail {
+  background: #999999;
+  height: 150px;
+  width:150px;
+  margin: 20px 0;
+}
+.center-text{
+  font-size: 8em;
+  @include position(relative);
+  top: 50%;
+  margin: 0 auto;
+}
+
+.box-round {
+  background: #999999;
+  border-radius: 15px 50px;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+}

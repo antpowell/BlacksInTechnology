@@ -29,6 +29,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/podcast', {
+        templateUrl: 'views/podcast.html',
+        controller: 'PodcastCtrl',
+        controllerAs: 'podcast'
+      })
       .otherwise({
         redirectTo: '/'
       });
