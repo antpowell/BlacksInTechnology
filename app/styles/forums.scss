@@ -1,0 +1,29 @@
+@import "../../bourbon/_bourbon.scss";
+$primaryColor: #F9FAFE;
+$secondaryColor: #EAEFF5;
+$highlightColor: #CFE5FF;
+.mainContainer {
+  margin-top: 40px;
+}
+.ranking-indicator {
+  width: 100px;
+  // padding: 0;
+}
+.profile-thumbnail {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+}
+.post {
+  padding: 5px;
+  background: $primaryColor;
+  border: 1px solid $secondaryColor;
+  border-radius: 10px/30px;
+  margin-bottom: 15px;
+}
+.post-header {
+  padding: 3px;
+  background: $secondaryColor;
+  border: 1px solid $highlightColor;
+  border-radius: 10px/30px;
+}

@@ -34,6 +34,11 @@ angular
         controller: 'PodcastCtrl',
         controllerAs: 'podcast'
       })
+      .when('/forums', {
+        templateUrl: 'views/forums.html',
+        controller: 'ForumsCtrl',
+        controllerAs: 'forums'
+      })
       .otherwise({
         redirectTo: '/'
       });
