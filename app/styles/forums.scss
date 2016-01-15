@@ -1,8 +1,12 @@
 @import "../../bourbon/_bourbon.scss";
+
+
 $primaryColor: #F9FAFE;
 $secondaryColor: #EAEFF5;
 $highlightColor: #CFE5FF;
-.mainContainer {
+
+
+header {
   margin-top: 40px;
 }
 .ranking-indicator {
@@ -30,3 +34,17 @@ $highlightColor: #CFE5FF;
 search-post{
   width: 500px;
 }
+.search-section{
+  height:100%;
+  background: #eee;
+  border: 1px solid #ddd;
+}
+.container-fluid{
+  border: 1px solid green;
+}
+.container{
+  border: 1px solid red;
+}
+// #search-input.form-control{
+//   width: 50%;
+// }
