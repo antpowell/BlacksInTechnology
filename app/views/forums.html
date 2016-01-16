@@ -1,34 +1,18 @@
 <div class="container-fluid">
   <header class="row headRow text-center">
     <!--FORUM HEADER-->
-    <h2>Forums</h2>
+    <h1>Forum</h1>
   </header>
 </div>
 <!--END FORUM HEADER-->
 
-<!-- FORUM POST SEARCH SECTION -->
-<!-- <div class="col-sm-3 col-sm-push-9 search-section"> -->
-<!-- FORUM SEARCH -->
-<!-- <div class="col-xs-12 text-center">
-      <label class="col-xs-12">SEARCH</label>
-      <div class="col-xs-12">
-        <div class="input-group search-group">
-          <div class="col-xs-6">
-            <input type="text" class="form-control" placeholder="Post, Date, Title" id="search-input">
-          </div>
 
-          <select class="selectpicker form-control" data-live-search="true" title="Search Filter">
-            <option value="">Post</option>
-            <option value="">Date</option>
 
-          </select>
-        </div>
-      </div>
 
-    </div> -->
-<!-- END FORUM SEARCH -->
-<!-- END FORUM POST SEARCH SECTION -->
+
 <div class="col-xs-12 text-center">
+
+  <!-- FORUM POST SEARCH SECTION -->
   <label for="">Search</label>
   <form action="" class="form-inline">
     <div class="form-group">
@@ -36,111 +20,246 @@
       <input type="text" id="search-input" class="form-control" placeholder="SEARCH">
     </div>
     <div class="form-group">
-      <!-- <div class="input-group-btn"> -->
 
-        <select class="select-picker form-control" data-life-search="true" title="Search Filter">
-          <option value="">Date</option>
-          <option value="">Title</option>
-          <option value="">Author</option>
-
-        </select>
-      <!-- </div> -->
+      <select class="select-picker form-control" data-life-search="true" title="Search Filter">
+        <option value="">Title</option>
+        <option value="">Date</option>
+        <option value="">Author</option>
+      </select>
     </div>
+  </form>
 </div>
-</form>
+<!-- END FORUM POST SEARCH SECTION -->
 
-</div>
+<hr class="divider featurette-divider">
 
 <!-- FORUM POST SECTION -->
 <div class="col-sm-12 ">
-  <!-- POST RANK INDICATOR -->
-  <div class="col-xs-1 text-center">
-    <div class="col-xs-12">
-      <span class="fa  fa-chevron-up"></span>
-    </div>
-    <div class="col-xs-12">
-      <span class="label label-default">5</span>
-    </div>
-    <div class="col-xs-12">
-      <span class="fa  fa-chevron-down"></span>
-    </div>
-  </div>
-  <!-- END POST RANK INDICATOR -->
-
-  <!-- FORUM POST THUMBNAIL -->
-  <div class="col-xs-1 profile-thumbnail">
-    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/abinav_t/128.jpg" alt="" class="img-responsive img-circle profile-thumbnail" />
-  </div>
-  <!--  END FORUM POST THUMBNAIL -->
-
-  <!-- FORUM POST BODY -->
-  <div class="col-xs-10">
-    <div class="col-xs-12">
-      <div class="post shadow">
-        <h4 class="post-header lead">Post Header
-          <small class="post-author">Author Name</small>
-        </h4>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
-        <p>1/1/2011
-          <a href="#" class="">
-            <span>
-              <strong> 51 comments </strong>
-            </span>
-          </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x"></i>
-            <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
-          </span>
-        </p>
+  <div class="post-container">
+    <!-- POST RANK INDICATOR -->
+    <div class="col-xs-1 text-center">
+      <div class="col-xs-12">
+        <span class="fa  fa-chevron-up"></span>
+      </div>
+      <div class="col-xs-12">
+        <span class="label label-default">5</span>
+      </div>
+      <div class="col-xs-12">
+        <span class="fa  fa-chevron-down"></span>
       </div>
     </div>
-  </div>
-  <!-- END FORUM POST BODY -->
+    <!-- END POST RANK INDICATOR -->
 
-  <!-- POST RANK INDICATOR -->
-  <div class="col-xs-1 text-center">
-    <div class="col-xs-12">
-      <span class="fa  fa-chevron-up"></span>
+    <!-- FORUM POST THUMBNAIL -->
+    <div class="col-xs-1 profile-thumbnail">
+      <img src="https://s3.amazonaws.com/uifaces/faces/twitter/abinav_t/128.jpg" alt="" class="img-responsive img-circle profile-thumbnail" />
     </div>
-    <div class="col-xs-12">
-      <span class="label label-default">2</span>
-    </div>
-    <div class="col-xs-12">
-      <span class="fa  fa-chevron-down"></span>
-    </div>
-  </div>
-  <!-- END POST RANK INDICATOR -->
+    <!--  END FORUM POST THUMBNAIL -->
 
-  <!-- FORUM POST THUMBNAIL -->
-  <div class="col-xs-1 profile-thumbnail">
-    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/danbenoni/73.jpg" alt="" class="img-responsive img-circle profile-thumbnail" />
-  </div>
-  <!--  END FORUM POST THUMBNAIL -->
-
-  <!-- FORUM POST BODY -->
-  <div class="col-xs-10">
-    <div class="col-xs-12">
-      <div class="post shadow">
-        <h4 class="post-header lead">Post Header
-          <small class="post-author">Author Name</small>
-        </h4>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
-        <p>1/1/2011
-          <a href="#" class="">
-            <span>
-              <strong> 51 comments </strong>
+    <!-- FORUM POST BODY -->
+    <div class="col-xs-10">
+      <div class="col-xs-12">
+        <div class="post shadow">
+          <h4 class="post-header lead">Post Header
+            <small class="post-author">Author Name</small>
+          </h4>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+          <p>1/1/2011
+            <a href="#" class="">
+              <span>
+                <strong> 51 comments </strong>
+              </span>
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
             </span>
-          </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x"></i>
-            <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
-          </span>
-        </p>
+          </p>
+        </div>
       </div>
     </div>
+    <!-- END FORUM POST BODY -->
   </div>
-  <!-- END FORUM POST BODY -->
+  <div class="post-container">
+    <!-- POST RANK INDICATOR -->
+    <div class="col-xs-1 text-center">
+      <div class="col-xs-12">
+        <span class="fa  fa-chevron-up"></span>
+      </div>
+      <div class="col-xs-12">
+        <span class="label label-default">2</span>
+      </div>
+      <div class="col-xs-12">
+        <span class="fa  fa-chevron-down"></span>
+      </div>
+    </div>
+    <!-- END POST RANK INDICATOR -->
 
+    <!-- FORUM POST THUMBNAIL -->
+    <div class="col-xs-1 profile-thumbnail">
+      <img src="https://s3.amazonaws.com/uifaces/faces/twitter/danbenoni/73.jpg" alt="" class="img-responsive img-circle profile-thumbnail" />
+    </div>
+    <!--  END FORUM POST THUMBNAIL -->
+
+    <!-- FORUM POST BODY -->
+    <div class="col-xs-10">
+      <div class="col-xs-12">
+        <div class="post shadow">
+          <h4 class="post-header lead">Post Header
+            <small class="post-author">Author Name</small>
+          </h4>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+          <p>1/1/2011
+            <a href="#" class="">
+              <span>
+                <strong> 51 comments </strong>
+              </span>
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- END FORUM POST BODY -->
+  </div>
+  <div class="post-container">
+    <!-- POST RANK INDICATOR -->
+    <div class="col-xs-1 text-center">
+      <div class="col-xs-12">
+        <span class="fa  fa-chevron-up"></span>
+      </div>
+      <div class="col-xs-12">
+        <span class="label label-default">1</span>
+      </div>
+      <div class="col-xs-12">
+        <span class="fa  fa-chevron-down"></span>
+      </div>
+    </div>
+    <!-- END POST RANK INDICATOR -->
+
+    <!-- FORUM POST THUMBNAIL -->
+    <div class="col-xs-1 profile-thumbnail">
+      <img src="https://s3.amazonaws.com/uifaces/faces/twitter/azielsilas/128.jpg" alt="" class="img-responsive img-circle profile-thumbnail" />
+    </div>
+    <!--  END FORUM POST THUMBNAIL -->
+
+    <!-- FORUM POST BODY -->
+    <div class="col-xs-10">
+      <div class="col-xs-12">
+        <div class="post shadow">
+          <h4 class="post-header lead">Post Header
+            <small class="post-author">Author Name</small>
+          </h4>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+          <p>1/1/2011
+            <a href="#" class="">
+              <span>
+                <strong> 51 comments </strong>
+              </span>
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- END FORUM POST BODY -->
+  </div>
+  <div class="post-container">
+    <!-- POST RANK INDICATOR -->
+    <div class="col-xs-1 text-center">
+      <div class="col-xs-12">
+        <span class="fa  fa-chevron-up"></span>
+      </div>
+      <div class="col-xs-12">
+        <span class="label label-default">1</span>
+      </div>
+      <div class="col-xs-12">
+        <span class="fa  fa-chevron-down"></span>
+      </div>
+    </div>
+    <!-- END POST RANK INDICATOR -->
+
+    <!-- FORUM POST THUMBNAIL -->
+    <div class="col-xs-1 profile-thumbnail">
+      <img src="https://s3.amazonaws.com/uifaces/faces/twitter/th3ya0vi/128.jpg" alt="" class="img-responsive img-circle profile-thumbnail" />
+    </div>
+    <!--  END FORUM POST THUMBNAIL -->
+
+    <!-- FORUM POST BODY -->
+    <div class="col-xs-10">
+      <div class="col-xs-12">
+        <div class="post shadow">
+          <h4 class="post-header lead">Post Header
+            <small class="post-author">Author Name</small>
+          </h4>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+          <p>1/1/2011
+            <a href="#" class="">
+              <span>
+                <strong> 51 comments </strong>
+              </span>
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- END FORUM POST BODY -->
+  </div>
+  <div class="post-container">
+    <!-- POST RANK INDICATOR -->
+    <div class="col-xs-1 text-center">
+      <div class="col-xs-12">
+        <span class="fa  fa-chevron-up"></span>
+      </div>
+      <div class="col-xs-12">
+        <span class="label label-default">0</span>
+      </div>
+      <div class="col-xs-12">
+        <span class="fa  fa-chevron-down"></span>
+      </div>
+    </div>
+    <!-- END POST RANK INDICATOR -->
+
+    <!-- FORUM POST THUMBNAIL -->
+    <div class="col-xs-1 profile-thumbnail">
+      <img src="https://s3.amazonaws.com/uifaces/faces/twitter/themadray/128.jpg" alt="" class="img-responsive img-circle profile-thumbnail" />
+    </div>
+    <!--  END FORUM POST THUMBNAIL -->
+
+    <!-- FORUM POST BODY -->
+    <div class="col-xs-10">
+      <div class="col-xs-12">
+        <div class="post shadow">
+          <h4 class="post-header lead">Post Header
+            <small class="post-author">Author Name</small>
+          </h4>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+          <p>1/1/2011
+            <a href="#" class="">
+              <span>
+                <strong> 51 comments </strong>
+              </span>
+            </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-square fa-stack-2x"></i>
+              <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- END FORUM POST BODY -->
+  </div>
 </div>
 <!-- END FORUM POST SECTION -->
 <div class="row ">
